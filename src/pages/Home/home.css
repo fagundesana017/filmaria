@@ -1,0 +1,47 @@
+.lista-filmes{
+    max-width: 800px;
+    margin: 14px auto;
+}
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.lista-filmes article{
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.lista-filmes img{
+   width: 900px;
+   max-width: 100%;
+   max-height: 340px; 
+   object-fit: cover;
+   display: block;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   /*   object-fit: contain; não quebrar a imagem, pegando o tamanho da imagem original */
+}
+
+.lista-filmes strong{
+    margin-bottom:  14px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(45, 44, 114);
+    display: block;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lista-filmes a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: rgb(40, 40, 71);
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

@@ -1,0 +1,20 @@
+.not-found{
+    width: 100%;
+    height: calc(100vh - 60px); /* calculo para tirar o height do header*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.not-found h1{
+    font-size: 120px;
+}
+.not-found a{
+    text-decoration: 0;
+    background-color: #2b304b;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 14px;
+}

@@ -1,0 +1,55 @@
+.minhalista{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.minhalista h1{
+    margin-bottom: 30px;
+    color:rgb(45, 44, 114) ;
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.minhalista span{
+    font-size: 18px;
+}
+.minhalista ul{
+    width: 745px;
+}
+.minhalista ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.minhalista div{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.minhalista div a{
+    text-decoration: none;
+    color: rgb(13, 13, 90);
+    margin-right: 20px;
+    background-color:rgb(240, 240, 240) ;
+    padding: 9px 10px;
+    border-radius: 6px;
+}
+.minhalista div a:hover{
+    background-color: rgb(149, 36, 36);
+    transition: all 0.7s;
+    color: white;
+}
+.minhalista button{
+  color: rgb(13, 13, 90);
+  border: none;
+  padding: 13px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.minhalista button:hover{
+    background-color: rgb(149, 36, 36);
+    transition: all 0.7s;
+    color: white;
+}
